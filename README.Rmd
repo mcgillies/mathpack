@@ -1,0 +1,42 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# mathpack
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of mathpack is to provide basic mathematical functions so the user does not have to use the "+" and "-" keys as they are far away from the general hand position when typing
+
+## Installation
+
+You can install the development version of mathpack from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("mcgillies/mathpack")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(mathpack)
+add(1,2)
+subtract(10000,45678.595)
+## basic example code
+```
+
