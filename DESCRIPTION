@@ -13,3 +13,5 @@ Suggests:
 Config/testthat/edition: 3
 Imports: 
     cowsay
+URL: https://github.com/mcgillies/mathpack
+BugReports: https://github.com/mcgillies/mathpack/issues
